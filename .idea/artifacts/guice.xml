@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="guice">
+    <output-path>$PROJECT_DIR$/out/artifacts/guice</output-path>
+    <root id="archive" name="guice.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="guicedemo" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.google.inject:guice:4.1.0" />
+          <element id="library" level="project" name="Maven: javax.inject:javax.inject:1" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:19.0" />
+          <element id="library" level="project" name="Maven: com.google.inject.extensions:guice-servlet:4.0" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="guicedemo/web/Web" />
+    </root>
+  </artifact>
+</component>
